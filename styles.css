@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+#info {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  color: white;
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  #info {
+    font-size: 20px;
+  }
+}
